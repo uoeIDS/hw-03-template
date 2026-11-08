@@ -75,14 +75,7 @@ gss16_advfront <- gss16_advfront %>%
 
 *Your answer here*
 
-## Exercise 2: Create a workflow to fit a model
-
-```{r split-data}
-set.seed(1234)
-gss16_split <- initial_split(gss16_advfront)
-gss16_train <- training(gss16_split)
-gss16_test  <- testing(gss16_split)
-```
+## Exercise 2: Compare two linear models
 
 #### Exercise 2 (a)
 
@@ -90,25 +83,23 @@ gss16_test  <- testing(gss16_split)
 # replace this with your code
 ```
 
-*Your answer here*
-
 #### Exercise 2 (b)
 
 ```{r}
 # replace this with your code
 ```
 
+
 *Your answer here*
 
-#### Exercise 2 (c)
+## Exercise 3: Create a workflow to fit a model
 
-```{r}
-# replace this with your code
+```{r split-data}
+set.seed(1234)
+gss16_split <- initial_split(gss16_advfront)
+gss16_train <- training(gss16_split)
+gss16_test  <- testing(gss16_split)
 ```
-
-*Your answer here*
-
-## Exercise 3: Logistic regression with single predictor
 
 #### Exercise 3 (a)
 
@@ -126,7 +117,7 @@ gss16_test  <- testing(gss16_split)
 
 *Your answer here*
 
-## Exercise 4: Logistic regression modelling and interpretation
+## Exercise 4: Performance of a logistic regression
 
 #### Exercise 4 (a)
 
@@ -137,18 +128,11 @@ gss16_test  <- testing(gss16_split)
 *Your answer here*
 
 #### Exercise 4 (b)
-  
-```{r}
-# replace this with your code
-```
-
-*Your answer here*
-
-#### Exercise 4 (c) 
 
 ```{r}
 # replace this with your code
 ```
 
 *Your answer here*
+
 
